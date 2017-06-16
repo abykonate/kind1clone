@@ -1,0 +1,179 @@
+header{
+	height: 60px;
+	background-color: black;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 0px 20px 0 40px;
+}
+header img{
+	margin:0 20px 20px 0;
+}
+header .menu{
+	font-size: 18px;
+}
+header a{
+	color: white;
+	padding: 0 12px;
+	text-decoration: none;
+}
+header a:hover{
+	color: #ccc;
+}
+.slider{
+	height: 100px;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 100px;
+}
+.slider p{
+	font-weight: bold;
+}
+.cadre{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cadre h3{
+	font-size: 40px;
+	font-weight: bold;
+}
+.cadre p{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+.gran{
+	height: 450px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.do{
+	height: 200px;
+	text-align: center;
+	padding-top: 20px;
+}
+ h1{
+	font-size: 4em;
+	color: black;
+	font-weight: bold;
+}
+ .do p,#livre p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.men{
+	height: 20px;
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	
+}
+#fondation{
+	color: white;
+	height: 420px;
+	width: 100%;
+}
+.text{
+	height: 400px;
+	background-color: #61b4e4;
+	padding: 80px 0 0 180px;
+}
+.text h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.text p{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.text a{
+	color: white;
+	text-decoration: underline;
+}
+#livre{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#livre button{
+	padding: 10px 35px;
+	border:2px solid ;
+	font-weight: bold;
+	background-color: transparent;
+	margin: 10px 20em 10px 0;
+}
+#livre button:hover{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#livre span{
+	color: #ccc;
+}
+.gris{
+	background-color: #ccc;
+	text-align: center;
+	height: 200px;
+	padding-top: 40px;
+}
+.gris button{
+	padding: 8px 20px;
+	border:2px solid ;
+	font-weight: bold;
+	background-color:white;
+
+}
+.gris button:hover{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+footer{
+	height: 330px;
+	background-color: black;
+	color: white;
+	padding: 0 80px;
+}
+.pied{
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .pied .fa{
+	font-size: 26px;
+	color: white;
+	padding-right: 20px;
+}
+.fin{
+	height: 130px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .fin button{
+	width: 250px;
+	height: 50px;
+	color: white;
+	border-radius: 30px;
+	background: transparent;
+	border:1px solid white;
+
+}
+.pied ul a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+footer li{
+	list-style-type: none;
+}
